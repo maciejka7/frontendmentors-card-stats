@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import "./vars.scss";
+@import "./breakpoints.scss";
+@import "./mixins.scss";
+@import "./globals.scss";
+@import "./components/index.scss";
+
+body,
+html {
+  font-family: $default-font-family;
+  font-weight: $default-font-weight;
+  font-size: $default-font-size;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
